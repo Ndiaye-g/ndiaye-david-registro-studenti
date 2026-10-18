@@ -31,6 +31,7 @@ Il registro è vuoto.
 
 6">{{ s.mediaVoti }}</td>
 <td class="text-end">
+<a class="btn btn-sm btn-outline-primary" [routerLink]="['/elenco', s.id]">Dettaglio</a>
 <button type="button" class="btn btn-sm btn-outline-danger"
 
 (click)="rimuovi(s.id)">Elimina</button>
